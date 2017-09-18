@@ -26,6 +26,298 @@
   <!-- endsmoosh -->
 </head>
 <body>
-  
+  <amp-sidebar id="sidebar" layout="nodisplay" side="right">
+    <amp-img class="amp-close-image"
+    src="/img/close.png"
+    width="30"
+    height="30"
+    alt="close sidebar"
+    on="tap:sidebar.close"
+    role="button"
+    tabindex="0"></amp-img>
+
+    <ul>
+      <li>
+        <amp-accordion  disable-session-states >
+          <section class="accordion-menu"> 
+            <header class="section-menu">
+              <p>Products</p>
+            </header>
+            <ul>
+              <li><a href="#">Overview</a></li>
+              <li><a href="#">Email marketing</a></li>
+              <li><a href="#">SMTP service</a></li>
+              <li><a href="#">Web Push</a></li>
+              <li><a href="#">SMS</a></li>
+              <li><a href="#">API</a></li>
+            </ul>
+          </section> 
+        </amp-accordion>
+      </li>
+      <li>
+        <amp-accordion  disable-session-states >
+          <section class="accordion-menu"> 
+            <header class="section-menu">
+              <p>FEATURES</p>
+            </header>
+            <ul>
+              <li><a href="#">Drag and Drop Editor</a></li>
+              <li><a href="#">Subscription Forms</a></li>
+              <li><a href="#">Ready Made Templates</a></li>
+              <li><a href="#">AB testing</a></li>
+              <li><a href="#">Reporting</a></li>
+              <li><a href="#">Adaptive Design</a></li>
+            </ul>
+          </section> 
+        </amp-accordion>
+      </li>
+      <li>
+        <a href="https://sendpulse.com/prices">Prices</a>
+      </li>
+      <li>
+        <a href="https://sendpulse.com/support">Help</a>
+      </li>
+      <li>
+        <div class="social">
+          <a class="social__link" href="https://www.facebook.com/SendPulse">Faceboc</a>
+          <span>/</span>
+          <a class="social__link" href="https://twitter.com/SendPulseCom">Telegram</a>
+        </div>
+      </li>
+    </ul>
+  </amp-sidebar>
+
+  <div id="header" class="header ">
+    <div class="header-menu">
+      <div class="container">
+        <a href="index.html">
+          <amp-img class="logo" src="//1335865630.rsc.cdn77.org/templates/protostar/landing/assets__signup-forms/img/logo.svg" width="146" height="19" alt="SendPulse"></amp-img>
+        </a>
+        <button on="tap:sidebar.open" class="ampstart-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+    <div class="header-content ">        
+      <div class="container">          
+        <div class="titel-part text-center">
+          <h1>Marketing Made Simple</h1>
+          <div class="lead">
+            <p>Maximizing open rates automatically with Artificial Intelligence, Hyper-personalization, Predictive analysis
+            for email, SMS, Web Push, SMTP</p>
+          </div>
+          <div class="btn-signup reg_btn_anchor">
+            <a class="btn btn-primary btn-lg btn-block btn-red" href="#">
+              Try free
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="line-white">
+    <div class="container">
+      <div class="main-features">
+        <div class="simple-features">
+          <amp-img class="simple-features__icon simple-features__icon_email" src="img/features-email.png" width="72" height="72"></amp-img>
+          <h3 class="simple-features__title">Email Marketing</h3>
+          <p class="simple-features__text">
+            Create and send <strong>HTML</strong> emails with our simple drag and drop editor or select from hundreds of
+            existing templates
+          </p>
+        </div>
+        <div class="simple-features">
+          <amp-img class="simple-features__icon simple-features__icon_email" src="img/features-server.png" width="100" height="68"></amp-img>
+          <h3 class="simple-features__title">SMTP Server</h3>
+          <p class="simple-features__text">
+            SMTP Server <strong>SMTP</strong> is used to send transactional and marketing email messages from any of your
+            tools or applications using our reliable service.
+          </p>
+        </div>
+        <div class="simple-features">
+          <amp-img class="simple-features__icon simple-features__icon_email" src="./img/features-push.png" width="77" height="71"></amp-img>
+          <h3 class="simple-features__title">Web Push</h3>
+          <p class="simple-features__text">
+            <strong>WEB PUSH</strong> lets you instantly reach your users when they are on their devices with updates
+          </p>
+        </div>
+        <div class="simple-features">
+          <amp-img class="simple-features__icon simple-features__icon_email" src="img/features-sms.png" width="65" height="74"></amp-img>
+          <h3 class="simple-features__title">SMS</h3>
+          <p class="simple-features__text">
+            Send <strong>SMS</strong> messages to your users with instant discounts, confirmations and offers
+          </p>
+        </div>
+        <div class="simple-features">
+          <amp-img class="simple-features__icon simple-features__icon_email" src="./img/features-api.png" width="62" height="74"></amp-img>
+          <h3 class="simple-features__title">API</h3>
+          <p class="simple-features__text">
+            <strong>REST API</strong> gives engineers full control and endless managing capabilities
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="line-light">
+    <div class="container">
+      <h3>Increase Open Rate by 50% with Artificial Intelligence</h3>
+      <p>
+        Hundreds of our clients tested that <b>email + web push increase email open rate by 30%</b>. With Artificial Intelligence
+        technology SendPulse will increase these numbers even more.
+      </p>
+      <p>
+        <strong>
+          This will be achieved by:
+        </strong>
+      </p>
+      <ul>
+        <li>Additional email personalization</li>
+        <li>Optimization of message timing and delivery preference (email, web push, mobile push, sms) SMS)</li>
+        <li>Conversion improvement with subject and content optimization</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="line-white">
+    <div class="container">
+      <amp-img class="img-center" src="./img/deliverability-test-drive.png" width="280" height="195"></amp-img>
+      <h3>High deliverability</h3>
+      <p>
+        We take care of the technical side of sending emails so you can focus on communicating with your customers. Excellent IP
+        reputation of our servers and compliance with all requirements of email providers guarantee high inboxing rates.
+      </p>
+
+      <h3>Test drive</h3>
+      <p>
+        Send an email campaign to your entire mailing list free of charge. Try email marketing in action and see how effective it
+        is for your business.
+      </p>
+    </div>
+  </div>
+
+  <div class="line-light">
+    <div class="container">
+      <div class="list-oportunities">
+        <amp-img src="./img/Responsive-email.png" alt="Responsive email" width="72" height="79"></amp-img>
+        <h3>Responsive email</h3>
+        <p>All campaigns created in SendPulse look good both on computer screens and other screens with small resolution.</p>
+      </div>
+      <div class="list-oportunities">
+        <amp-img src="./img/Convenient-email-creator.png" alt="Convenient email creator" width="83" height="81"></amp-img>
+        <h3>Convenient email creator</h3>
+        <p>With the help of the drag’n’drop editor, you can easily create professional templates in no time.</p>
+      </div>
+      <div class="list-oportunities">
+        <amp-img src="./img/Mobility.png" alt="Mobility" width="54" height="81"></amp-img>
+        <h3>Mobility</h3>
+        <p>Create campaigns on your computer and send them with the help of your mobile device from wherever you are.</p>
+      </div>
+      <div class="list-oportunities">
+        <amp-img src="./img/Scheduler.png" alt="Scheduler" width="76" height="76"></amp-img>
+        <h3>Scheduler</h3>
+        <p>You need only to specify the timeframe for the delivery to start, and the service will send the campaign automatically.</p>
+      </div>
+      <div class="list-oportunities">
+        <amp-img src="./img/Series-of-emails.png" alt="Series of emails" width="71" height="73"></amp-img>
+        <h3>Series of emails</h3>
+        <p>Set your autoresponder series only once and it will be sent automatically after adding a new subscriber, click on
+        a link or any event that you specify.</p>
+      </div>
+      <div class="list-oportunities">
+        <amp-img src="./img/Subscription-forms.png" alt="Subscription forms" width="68" height="79"></amp-img>
+        <h3>Subscription forms</h3>
+        <p>Create a unique subscription form, place it on your website and start collecting your subscribers’ emails.</p>
+      </div>
+      <div class="list-oportunities">
+        <amp-img src="./img/Resend-to-unopened.png" alt="Resend to unopened" width="68" height="80"></amp-img>
+        <h3>Resend to unopened</h3>
+        <p>You can resend an email automatically to those subscribers who didn’t open your email and get up to +50% to your
+        Open Rate</p>
+      </div>
+      <div class="list-oportunities">
+        <amp-img src="./img/Analytics.png" alt="Analytics" width="73" height="73"></amp-img>
+        <h3>Analytics</h3>
+        <p>You will have access to detailed reports on your mailings: number of emails open and links clicked, which links your
+        customers click and where they are located.</p>
+      </div>
+      <div class="list-oportunities">
+        <amp-img src="./img/Subscribers-Rate.png" alt="Subscribers Rate" width="74" height="74"></amp-img>
+        <h3>Subscribers Rate</h3>
+        <p>Analyze the activity of your subscribers, segment your mailing lists and work with clients with an individual approach.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="line-white">
+    <div class="container">
+      <h3>Automation</h3>
+      <p>
+        Through one single platform, you can send out emails, SMS, and web push notifications. You can create hybrid series of communications
+        targeted to your customers, which will cover all delivery channels, and increase your CTR conversions.
+      </p>
+      <p>
+        Our scheduler, subscription form, and integration with third-party systems will greatly ease working with your customer base
+        and increase the overall effectiveness of your email marketing.
+      </p>
+
+      <h3>Easy integration</h3>
+      <p>
+        Send mailings from your CRM and CMS systems, integrate with online shopping cart scripts and various online services, send
+        newsletters directly from your projects, track campaigns, and view statistics.
+      </p>
+    </div>
+  </div>
+
+  <div class="line-light">
+    <div class="container">
+      <amp-img src="./img/lot.png" width="120" height="59"></amp-img>
+      <amp-img src="./img/swatch.png" width="120" height="31"></amp-img>
+      <amp-img src="./img/karcher.png" width="160" height="42"></amp-img>
+      <amp-img src="./img/aeroflot.png" width="120" height="54"></amp-img>
+      <amp-img src="./img/radisson.png" width="120" height="58"></amp-img>
+    </div>
+  </div>
+
+  <div class="line-white">
+    <div class="container">
+      <h2>Send 15,000 emails every month for free</h2>
+      <a class="btn btn-primary btn-lg btn-block btn-red" href="#">
+        Try free
+      </a>
+    </div>
+  </div>
+
+  <div class="footer line-white">
+    <div class="container">
+     <div class="menu-footer">
+      <ul>
+       <li class="menu-footer__list">
+         <a href="https://sendpulse.com/features" class="link-footer">FEATURES</a>
+       </li>
+       <li class="menu-footer__list">
+         <a href="https://sendpulse.com/integrations" class="link-footer">INTEGRATIONS</a>
+       </li>
+       <li class="menu-footer__list">
+         <a href="https://sendpulse.com/about" class="link-footer">ABOUT US</a>
+       </li>
+     </ul>
+   </div>
+   <div class="copyright">
+    <p>
+      Copyright © 2017. SendPulse. All rights reserved
+    </p>
+  </div>
+
+  <div class="social">
+    <a class="social__link" href="https://www.facebook.com/SendPulse">Faceboc</a>
+    <span>/</span>
+    <a class="social__link" href="https://twitter.com/SendPulseCom">Telegram</a>
+  </div>
+</div>
+</div>
 </body>
 </html>

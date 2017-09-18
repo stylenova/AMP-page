@@ -1,0 +1,295 @@
+// 1. Global color
+// ---------
+
+$white: #ffffff;
+$line-white: $white;
+$line-grey: #fafafa;
+$text-color: #413d4b;
+$color-menu: #20c6ce;
+$red: #f64747;
+$btn: $red;
+
+// 2. Global settings
+// ---------
+body {
+  font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $text-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+h2 {
+  margin-bottom: 60px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  @include rul;
+}
+
+amp-img {
+  margin: 0px;
+}
+
+.btn-signup {
+  text-align: center;
+}
+
+a.btn-red {
+  box-sizing: border-box;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  background: $red;
+  border-radius: 5px;
+  border: 1px solid $red;
+  text-decoration: none;
+  color: $white;
+  padding: 10px 16px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  line-height: 200%;
+}
+
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.line-white,
+.line-light {
+  padding: 50px 0px;
+}
+
+
+.line-white {
+  background: $line-white;
+}
+
+.line-light {
+  background: $line-grey;
+}
+
+
+
+// socail
+.social {
+  text-align: left;
+
+  span,
+  .social__link {
+    display: inline-block;
+    text-decoration: none;
+    text-align: left;
+    font-size: 13px;
+    color: #888d8e;
+  }
+}
+
+// settings
+#sidebar {
+  width: 240px;
+  padding: 30px;
+
+  .amp-close-image {
+    margin: 0;
+    margin-bottom: 30px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  header {
+    border: none;
+    padding: 0;
+
+    &:focus {
+      outline: none;
+    }
+
+    p {
+      font-size: 18px;
+      text-transform: uppercase;      
+    }
+  }
+
+  ul li {
+    padding: 10px 0;
+    a {
+      font-size: 18px;
+      text-transform: uppercase;
+      color: $text-color;
+      text-decoration: none;
+    }
+  }
+
+  ul li .social {
+    padding-top: 20px;
+    span,
+    .social__link {
+      font-size: 16px;
+      color: #3173af;
+      text-transform: inherit;
+    }
+  }
+
+
+  .accordion-menu ul{
+    li {
+      padding: 5px 0;
+    }
+    a {
+      padding-left: 20px;
+      text-transform: none;
+      font-size: 16px;
+      color: #3173af;
+      text-decoration: none;
+      
+      &:hover,
+      &:active,
+      &:focus {
+        color: #3173af;
+      }
+    }    
+  }  
+}
+
+.header-menu {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top: 0;
+  background: rgba(80,80,90,0.95);
+  box-shadow: 0 2px 2px rgba(0,0,0,.12);
+  z-index: 9999;
+
+  .container {
+    position: relative;
+  }
+
+  .logo {
+    margin-top: 20px;
+  }
+  
+  .ampstart-btn {
+    width: 50px;
+    height: 45px;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    background: none;
+    border: none;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+
+    span {
+      display: block;
+      height: 3px;
+      width: 100%;
+      margin-bottom: 8px;
+      background: $white;
+      border-radius: 3px;
+      opacity: 1;
+      left: 0;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: .25s ease-in-out;
+      -moz-transition: .25s ease-in-out;
+      -o-transition: .25s ease-in-out;
+      transition: .25s ease-in-out;
+    }
+  }
+}
+
+.footer {
+  border-top: 3px solid #ebebeb; 
+
+  .menu-footer {
+    margin-bottom: 40px; 
+  }
+
+  ul {
+    text-align: justify;
+    line-height: 0;
+    font-size: 0;
+    text-justify: newspaper;
+    zoom: 1;
+    -moz-text-align-last: justify;
+    text-align-last: justify; 
+    li {
+      display: inline-block; 
+    }
+    a.link-footer {
+      color: #20c6ce;
+      text-decoration: none;
+      font-size: 18px; 
+    }
+  }
+
+  &:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 0px;
+    visibility: hidden;
+    overflow: hidden; 
+  }
+
+  .copyright {
+    border-top: 1px solid #ebebeb;
+    padding: 20px 0 0;
+    margin-bottom: 10px; 
+
+    p {
+      color: #888d8e;
+      font-size: 14px;
+      text-align: center; 
+    }
+  }
+
+
+  .social {
+    text-align: center; 
+
+    span,
+    .social__link {
+      text-align: center;
+    }
+  }
+}
