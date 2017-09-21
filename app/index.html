@@ -26,6 +26,268 @@
   <!-- endsmoosh -->
 </head>
 <body>
-  
+  <amp-sidebar id="sidebar" layout="nodisplay" side="right">
+    <amp-img class="amp-close-image"
+    src="/img/close.png"
+    width="30"
+    height="30"
+    alt="close sidebar"
+    on="tap:sidebar.close"
+    role="button"
+    tabindex="0"></amp-img>
+
+    <ul>
+      <li>
+        <amp-accordion  disable-session-states >
+          <section class="accordion-menu">
+            <header class="section-menu">
+              <p>Products</p>
+            </header>
+            <ul>
+              <li><a href="#">Overview</a></li>
+              <li><a href="#">Email marketing</a></li>
+              <li><a href="#">SMTP service</a></li>
+              <li><a href="#">Web Push</a></li>
+              <li><a href="#">SMS</a></li>
+              <li><a href="#">API</a></li>
+            </ul>
+          </section>
+        </amp-accordion>
+      </li>
+      <li>
+        <amp-accordion  disable-session-states >
+          <section class="accordion-menu">
+            <header class="section-menu">
+              <p>FEATURES</p>
+            </header>
+            <ul>
+              <li><a href="#">Drag and Drop Editor</a></li>
+              <li><a href="#">Subscription Forms</a></li>
+              <li><a href="#">Ready Made Templates</a></li>
+              <li><a href="#">AB testing</a></li>
+              <li><a href="#">Reporting</a></li>
+              <li><a href="#">Adaptive Design</a></li>
+            </ul>
+          </section>
+        </amp-accordion>
+      </li>
+      <li>
+        <a href="https://sendpulse.com/prices">Prices</a>
+      </li>
+      <li>
+        <a href="https://sendpulse.com/support">Help</a>
+      </li>
+      <li>
+        <div class="social">
+          <a class="social__link" href="https://www.facebook.com/SendPulse">Facebook</a>
+          <span>/</span>
+          <a class="social__link" href="https://twitter.com/SendPulseCom">Telegram</a>
+        </div>
+      </li>
+    </ul>
+  </amp-sidebar>
+
+  <div id="header" class="header ">
+    <div class="header-menu">
+      <div class="container">
+        <a href="index.html">
+          <amp-img class="logo" src="//1335865630.rsc.cdn77.org/templates/protostar/landing/assets__signup-forms/img/logo.svg" width="146" height="19" alt="SendPulse"></amp-img>
+        </a>
+        <button on="tap:sidebar.open" class="ampstart-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+    <div class="header-content">
+      <div class="container">
+        <div class="titel-part text-center">
+          <amp-img class="img-center" src="img/label_free_mini_en-280.png" alt="Forever free" width="280" height="60"></amp-img>
+          <h1>Web Push Notifications</h1>
+          <div class="lead">
+            <p>Get $5 every month for using web push messages</p>
+          </div>
+          <div class="btn-signup reg_btn_anchor">
+            <a class="btn btn-primary btn-lg btn-block btn-red" href="#">
+              Try now
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="line-white">
+    <div class="container">
+      <div class="mainfeatures">
+        <div class="mainfeatures__img">
+          <amp-img class="img-center" src="https://1335865630.rsc.cdn77.org/images/webpush-illustration.png" width="244" height="203"></amp-img>
+        </div>
+        <div class="mainfeatures__descrition">
+          <h3>Messages that are hard to miss</h3>
+          <p>
+            nstant notifications to your subscribers’ devices.
+            An ideal <a href="https://sendpulse.com/features/webpush/cases">solution</a> to quickly inform your customers about news, sales, order status, or other important events.
+          </p>
+        </div>  
+      </div>
+    </div>
+  </div>
+
+  <div class="line-light">
+    <div class="container">
+      <div class="decription-webpush">
+        <h3>
+          Customers subscribe on the site, and receive notifications on their own devices
+        </h3>
+        <p>
+          Push notifications work on a number of platforms. Customers can subscribe and receive notifications right on their desktop or mobile devices. <br> Push notifications now work on over 80% of devices, on <a href="https://sendpulse.com/features/webpush/browsers">all modern browsers.</a> .
+        </p>
+      </div>
+      <div class="browser-wrap">
+        <div class="browser">
+          <amp-img class="img-center" src="https://1335865630.rsc.cdn77.org/images/chrome.png" width="107" height="107"></amp-img>
+          <h4>Google Chrome</h4>
+          <p>PCs (Windows, OS X, Linux) and mobile devices</p>
+        </div>
+        <div class="browser">
+          <amp-img class="img-center" src="https://1335865630.rsc.cdn77.org/images/firefox.png" width="107" height="107"></amp-img>
+          <h4>Firefox</h4>
+          <p>PCs (Windows, OS X, Linux)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="line-white">
+    <div class="container">
+      <div class="features-title">
+        <h2>Features</h2>
+      </div>
+      <div class="features-list">
+        <amp-img src="img/like.png" alt="Responsive email" width="24" height="24"></amp-img>
+        <h3>
+          High level of subscriptions
+        </h3>
+        <p>
+          Visitors will subscribe to notifications from your site through a web push request.
+        </p>
+      </div>
+      <div class="features-list">
+        <amp-img src="img/eyes.png" alt="Convenient email creator" width="24" height="24"></amp-img>
+        <h3>
+          Highly effective
+        </h3>
+        <p>
+          The visibility of push notifications is around 90%. Use our <a href="https://sendpulse.com/features/webpush/analytics"> analytics for your subscriber list</a>.
+        </p>
+      </div>
+      <div class="features-list">
+        <amp-img src="img/bullseye.png" alt="Mobility" width="24" height="24"></amp-img>
+        <h3>
+          Offline notifications
+        </h3>
+        <p>
+          Users will see your notification as soon as they come online.
+        </p>
+      </div>
+      <div class="features-list">
+        <amp-img src="img/user.png" alt="Scheduler" width="24" height="24"></amp-img>
+        <h3>Personalization and segmentation</h3>
+        <p>
+          Users at your site can receive <a href="https://sendpulse.com/features/webpush/analytics">personalized notifications</a>. The messages you send out can <a href="https://sendpulse.com/features/webpush/segmentation">be segmented</a> based on the user’s location or other details.
+        </p>
+      </div>
+      <div class="features-list">
+        <amp-img src="img/settings.png" alt="Series of emails" width="24" height="24"></amp-img>
+        <h3>
+          Trigger messages and bulk messages
+        </h3>
+        <p>
+          Send push messages through your personal account or set up automatic messaging when certain conditions are met.
+        </p>
+      </div>
+      <div class="features-list">
+        <amp-img src="img/api.png" alt="Subscription forms" width="24" height="24"></amp-img>
+        <h3>Developer API</h3>
+        <p>
+          Use our SendPulse API and send web push notifications, emails, and SMS through a single platform.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="line-light">
+    <div class="container">
+      <h3>How can I start?</h3>
+      <p>
+        Add just one line of code to your site, and you’re ready to send web push notification requests to all your subscribers!
+      </p>
+      <amp-img 
+      src="img/push-paste-code-en.jpg" 
+      srcset = "img/push-paste-code-en.jpg 768w,
+                img/push-paste-code-en-320.jpg 320w"
+      width="768" 
+      height="274"
+      alt="Подключение Api" 
+      layout="responsive">
+    </div>
+  </div>
+
+  <div class="line-white">
+    <div class="container">
+      <div class="developer">
+        <div class="developer__img">
+          <amp-img class="img-center" src="https://1335865630.rsc.cdn77.org/images/api-illustration.png" width="244" height="203"></amp-img>
+        </div>
+        <div class="developer__descrition">
+          <h3>Developer API</h3>
+          <p>
+            Use our <a href="https://sendpulse.com/integrations/api">REST API</a> to integrate push notifications into your CMS, CRM, or other system. You can automatically send personalized webpush messages to your customers from the system you already use.
+            The easy-to-understand API and complete developer documentation allows you to quickly integrate push notifications into your business.
+          </p>
+        </div>        
+      </div>
+    </div>
+  </div>
+
+  <div class="line-light">
+    <div class="container">
+      <h2>Send instant web push notifications to visitors to your site.</h2>
+      <a class="btn btn-primary btn-lg btn-block btn-red" href="#">
+        Start now
+      </a>
+    </div>
+  </div>
+
+  <div class="footer line-white">
+    <div class="container">
+      <div class="menu-footer">
+        <ul>
+          <li class="menu-footer__list">
+            <a href="https://sendpulse.com/features" class="link-footer">FEATURES</a>
+          </li>
+          <li class="menu-footer__list">
+            <a href="https://sendpulse.com/integrations" class="link-footer">INTEGRATIONS</a>
+          </li>
+          <li class="menu-footer__list">
+            <a href="https://sendpulse.com/about" class="link-footer">ABOUT US</a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © 2017. SendPulse. All rights reserved
+        </p>
+      </div>
+
+      <div class="social">
+        <a class="social__link" href="https://www.facebook.com/SendPulse">Facebook</a>
+        <span>/</span>
+        <a class="social__link" href="https://twitter.com/SendPulseCom">Telegram</a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
