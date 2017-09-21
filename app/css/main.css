@@ -211,41 +211,13 @@ a.btn-red {
 .header {
   padding-top: 120px;
   padding-bottom: 30px;
-  background-color: #40a0ad; }
+  background-color: #285780; }
   .header .text-center {
     color: #ffffff; }
   .header .titel-part .lead {
     font-size: 1.8em;
     text-align: center;
     margin-bottom: 70px; }
-
-.mainfeatures .mainfeatures__descrition h3,
-.mainfeatures .developer__descrition h3,
-.developer .mainfeatures__descrition h3,
-.developer .developer__descrition h3 {
-  text-align: left; }
-
-.mainfeatures .mainfeatures__descrition a,
-.mainfeatures .developer__descrition a,
-.developer .mainfeatures__descrition a,
-.developer .developer__descrition a {
-  color: #30aec8;
-  text-decoration: none; }
-
-.decription-webpush {
-  text-align: center;
-  margin-bottom: 30px; }
-  .decription-webpush a {
-    color: #30aec8;
-    text-decoration: none; }
-
-.browser-wrap .browser {
-  text-align: center;
-  margin-bottom: 50px; }
-  .browser-wrap .browser:last-child {
-    margin-bottom: 0; }
-  .browser-wrap .browser p {
-    font-size: 13px; }
 
 .features-list {
   text-align: center; }
@@ -256,6 +228,27 @@ a.btn-red {
     text-decoration: none; }
   .features-list:last-child p {
     margin-bottom: 0; }
+
+.from-bulk-sending h3 {
+  text-align: left; }
+
+.from-bulk-sending p {
+  margin-bottom: 40px; }
+
+.info-campaigns {
+  text-align: center; }
+  .info-campaigns p {
+    margin-bottom: 20px; }
+    .info-campaigns p a {
+      color: #30aec8;
+      text-decoration: none; }
+
+.free-emails h2 {
+  margin-bottom: 10px; }
+
+.free-emails h3 {
+  margin-top: 0px;
+  margin-bottom: 60px; }
 
 @media (max-width: 400px) {
   .header .header-content amp-img {

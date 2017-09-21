@@ -1,7 +1,7 @@
 .header {
 	padding-top: 120px;
 	padding-bottom: 30px;
-	background-color: #40a0ad;
+	background-color: #285780;
 
 	.text-center {
 		color: #ffffff;
@@ -12,48 +12,6 @@
 			font-size: 1.8em;
 			text-align: center;
 			margin-bottom: 70px;
-		}
-	}
-}
-
-.mainfeatures,
-.developer {
-	.mainfeatures__descrition,
-	.developer__descrition {
-		h3 {
-			text-align: left;
-		}
-
-		a {
-			color: $link;
-			text-decoration: none;
-		}
-	}
-}
-
-
-.decription-webpush {
-	text-align: center;
-	margin-bottom: 30px;
-	
-	a {
-		color: $link;
-		text-decoration: none;
-	}
-}
-
-.browser-wrap {
-	
-	.browser {
-		text-align: center;
-		margin-bottom: 50px;
-
-		&:last-child {
-			margin-bottom: 0;
-		}
-
-		p {
-			font-size: 13px;
 		}
 	}
 }
@@ -73,6 +31,37 @@
 
 	&:last-child p {
 		margin-bottom: 0; 
+	}
+}
+
+.from-bulk-sending {
+	h3 {
+		text-align: left;
+	}
+
+	p {
+		margin-bottom: 40px;
+	}
+}
+
+.info-campaigns {
+	text-align: center;
+	p {
+		margin-bottom: 20px;
+		a {
+			color: $link;
+			text-decoration: none;
+		}
+	}
+}
+
+.free-emails {
+	h2 {
+		margin-bottom: 10px;
+	}
+	h3 {
+		margin-top: 0px;
+		margin-bottom: 60px;
 	}
 }
 
