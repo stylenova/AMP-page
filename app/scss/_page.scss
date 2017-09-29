@@ -1,7 +1,7 @@
 .header {
 	padding-top: 120px;
 	padding-bottom: 30px;
-	background-color: #40a0ad;
+	background-color: #285780;
 
 	.text-center {
 		color: #ffffff;
@@ -21,7 +21,11 @@
 	.mainfeatures__descrition,
 	.developer__descrition {
 		h3 {
-			text-align: left;
+			text-align: center;
+		}
+
+		p {
+			text-align: center;
 		}
 
 		a {
@@ -32,7 +36,7 @@
 }
 
 
-.decription-webpush {
+.decription-smtp {
 	text-align: center;
 	margin-bottom: 30px;
 	

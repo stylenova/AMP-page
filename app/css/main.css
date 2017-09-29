@@ -211,7 +211,7 @@ a.btn-red {
 .header {
   padding-top: 120px;
   padding-bottom: 30px;
-  background-color: #40a0ad; }
+  background-color: #285780; }
   .header .text-center {
     color: #ffffff; }
   .header .titel-part .lead {
@@ -223,7 +223,13 @@ a.btn-red {
 .mainfeatures .developer__descrition h3,
 .developer .mainfeatures__descrition h3,
 .developer .developer__descrition h3 {
-  text-align: left; }
+  text-align: center; }
+
+.mainfeatures .mainfeatures__descrition p,
+.mainfeatures .developer__descrition p,
+.developer .mainfeatures__descrition p,
+.developer .developer__descrition p {
+  text-align: center; }
 
 .mainfeatures .mainfeatures__descrition a,
 .mainfeatures .developer__descrition a,
@@ -232,10 +238,10 @@ a.btn-red {
   color: #30aec8;
   text-decoration: none; }
 
-.decription-webpush {
+.decription-smtp {
   text-align: center;
   margin-bottom: 30px; }
-  .decription-webpush a {
+  .decription-smtp a {
     color: #30aec8;
     text-decoration: none; }
 
