@@ -1,7 +1,14 @@
+
 .header {
 	padding-top: 120px;
 	padding-bottom: 30px;
 	background-color: #285780;
+
+	.logo amp-img {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
 
 	.text-center {
 		color: #ffffff;
@@ -16,10 +23,8 @@
 	}
 }
 
-.mainfeatures,
-.developer {
-	.mainfeatures__descrition,
-	.developer__descrition {
+.mainfeatures {
+	.mainfeatures__descrition {
 		h3 {
 			text-align: center;
 		}
@@ -28,9 +33,32 @@
 			text-align: center;
 		}
 
+		p:last-child {
+			margin-bottom: 30px;
+		}
+
 		a {
 			color: $link;
 			text-decoration: none;
+		}
+	}	
+}
+
+.mainfeatures__link {
+	text-align: center;
+	ul {
+		@include rul;
+		display: inline-block;
+	
+		li {
+			display: inline-block;
+	
+			a {
+				font-weight: bold;
+				text-decoration: none;
+				padding: 20px;
+				color: #507E8F;
+			}
 		}
 	}
 }
