@@ -16,8 +16,12 @@ h1 {
 h2 {
   margin-bottom: 60px; }
 
+h4 {
+  margin-bottom: 10px; }
+
 p {
   margin: 0;
+  margin-bottom: 10px;
   padding: 0; }
 
 ul {
@@ -82,7 +86,8 @@ a.btn-red {
   padding: 30px; }
   #sidebar .amp-close-image {
     margin: 0;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    margin-left: 214px; }
     #sidebar .amp-close-image:focus {
       outline: none; }
   #sidebar header {
@@ -123,20 +128,22 @@ a.btn-red {
   width: 100%;
   height: 60px;
   top: 0;
-  background: rgba(80, 80, 90, 0.95);
-  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);
   z-index: 9999; }
   .header-menu .container {
     position: relative; }
   .header-menu .logo {
     margin-top: 20px; }
+  .header-menu button.ampstart-btn {
+    padding-top: 8px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #246dad; }
   .header-menu .ampstart-btn {
     width: 50px;
     height: 45px;
     position: absolute;
     top: 12px;
-    right: 15px;
+    right: 0;
     background: none;
     border: none;
     -webkit-transform: rotate(0deg);
@@ -209,9 +216,6 @@ a.btn-red {
   width: 100%;
   height: 60px;
   top: 0;
-  background: rgba(80, 80, 90, 0.95);
-  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);
   z-index: 9999; }
 
 .header-menu .container {
@@ -290,6 +294,10 @@ a.btn-red {
 .simple-features .simple-features__text {
   margin-bottom: 60px;
   color: #666; }
+
+.list-li {
+  list-style-type: disc;
+  margin-left: 25px; }
 
 .list-oportunities {
   text-align: center; }
