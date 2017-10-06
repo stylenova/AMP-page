@@ -2,17 +2,14 @@
 	padding-top: 120px;
 	padding-bottom: 30px;
 	background-color: #285780;
-
 	.logo amp-img {
 		display: block;
 		margin: 0 auto;
 		margin-bottom: 50px;
 	}
-
 	.text-center {
 		color: #ffffff;
 	}
-
 	.titel-part {
 		.lead {
 			font-size: 1.8em;
@@ -22,21 +19,17 @@
 	}
 }
 
-
 .features-list {
-	text-align: center; 
-
+	text-align: center;
 	p {
-		margin-bottom: 50px; 
+		margin-bottom: 50px;
 	}
-
 	a {
 		color: $link;
 		text-decoration: none;
 	}
-
 	&:last-child p {
-		margin-bottom: 0; 
+		margin-bottom: 0;
 	}
 }
 
@@ -44,9 +37,12 @@
 	h3 {
 		text-align: left;
 	}
-
 	p {
 		margin-bottom: 40px;
+	}
+	a {
+		color: #30aec8;
+		text-decoration: none;
 	}
 }
 
@@ -78,14 +74,12 @@
 				margin-bottom: 30px;
 			}
 		}
-
 		h1 {
 			font-size: 40px;
 			line-height: 1.2;
 		}
-
 		.titel-part .lead {
 			font-size: 24px;
 		}
-	}	
+	}
 }

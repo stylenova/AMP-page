@@ -247,6 +247,10 @@ a.btn-blue {
 .from-bulk-sending p {
   margin-bottom: 40px; }
 
+.from-bulk-sending a {
+  color: #30aec8;
+  text-decoration: none; }
+
 .info-campaigns {
   text-align: center; }
   .info-campaigns p {
