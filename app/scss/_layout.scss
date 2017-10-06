@@ -57,7 +57,8 @@ amp-img {
 	text-align: center;
 }
 
-a.btn-red {
+a.btn-blue,
+a.btn-red, {
 	box-sizing: border-box;
 	width: 100%;
 	display: inline-block;
@@ -71,6 +72,11 @@ a.btn-red {
 	margin: 0 auto;
 	margin-bottom: 50px;
 	line-height: 200%;
+}
+
+a.btn-blue {
+	background: #2a77af;
+	border: 1px solid #2a77af;
 }
 
 

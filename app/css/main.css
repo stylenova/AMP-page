@@ -35,6 +35,7 @@ amp-img {
 .btn-signup {
   text-align: center; }
 
+a.btn-blue,
 a.btn-red {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -51,6 +52,10 @@ a.btn-red {
   margin: 0 auto;
   margin-bottom: 50px;
   line-height: 200%; }
+
+a.btn-blue {
+  background: #2a77af;
+  border: 1px solid #2a77af; }
 
 .container {
   max-width: 768px;
