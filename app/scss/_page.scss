@@ -61,6 +61,13 @@
 	background: -o-linear-gradient(left, #499bea 0%, #0f66a1 100%);
 	background: -webkit-gradient(linear, left top, right top, from(#499bea), to(#0f66a1));
 	background: linear-gradient(to right, #499bea 0%, #0f66a1 100%); 
+
+	.logo amp-img { 
+		display: block; 
+		margin: 0 auto; 
+		margin-bottom: 50px; 
+	}
+	
 }
 
 .header .text-center {
